@@ -1,6 +1,45 @@
+@import "./variables.css";
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff-primary);
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding-s);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.logo {
+    cursor: pointer;
+    transform: scale(.9);
+    transition: 300ms ease-in-out ;
+}
+
+.logo:hover {
+    transform: scale(1);
+}
+
+.nav {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
 }

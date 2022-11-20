@@ -10,10 +10,11 @@
 
 :root {
     /* * BG */
-    --bg-color : linear-gradient(darkmagenta , magenta);
+    --bg-primary : linear-gradient(  magenta,darkmagenta );
 
     /* * Text */
-    --text-color : aliceblue;
+    --text-primary : aliceblue;
+    --text-secondary : #232323;
 
     /* *fs */
     --fs-xl : 3rem; 
@@ -38,5 +39,7 @@
     --margin-l : 3rem;
     --margin-m : 2rem;
     --margin-s : 1rem;
+
+    
 
 }
