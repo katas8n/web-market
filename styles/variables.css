@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "roboto";
+    src: url("../public/fonts/Roboto/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("../public/fonts/Inter/Inter.ttf");
+}
+
+:root {
+    /* * BG */
+    --bg-color : linear-gradient(darkmagenta , magenta);
+
+    /* * Text */
+    --text-color : aliceblue;
+
+    /* *fs */
+    --fs-xl : 3rem; 
+    --fs-l : 2rem; 
+    --fs-m : 1rem; 
+    --fs-s : .8rem; 
+
+    /* *ff */
+    --ff-primary : "inter";
+    --ff-secondary : "roboto";
+
+    /* *padding */
+    --padding-xl : 5rem;
+    --padding-x : 4rem;
+    --padding-l : 3rem;
+    --padding-m : 2rem;
+    --padding-s : 1rem;
+
+    /* *margin */
+    --margin-xl : 5rem;
+    --margin-x : 4rem;
+    --margin-l : 3rem;
+    --margin-m : 2rem;
+    --margin-s : 1rem;
+
+}
